@@ -11,7 +11,7 @@ from linebot.exceptions import (
 )
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
-    FlexSendMessage, CarouselContainer
+    FlexSendMessage, CarouselContainer, BubbleContainer
 )
 
 
