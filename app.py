@@ -43,11 +43,10 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     if event.message.text == 'show me':
-        with open('test.json', 'r', encoding='utf-8') as f:
-            bubble_container = BubbleContainer.new_from_json_dict(json.load(f))
+        with open('test.json', 'r') as f:
 
-        bubble_flex_send_message = FlexSendMessage(
-            alt_text="hello", contents=bubble_container)
+            bubble_flex_send_message = FlexSendMessage(
+                alt_text="hello", contents=json.load(f))
 
         line_bot_api.reply_message(
             event.reply_token,
