@@ -1,119 +1,48 @@
 {
   "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Header",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
   "hero": {
     "type": "image",
-    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png",
+    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
     "size": "full",
-    "aspectRatio": "20:13",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "label": "Action",
-      "uri": "https://linecorp.com"
-    }
+    "aspectRatio": "1.51:1",
+    "aspectMode": "fit"
   },
   "body": {
     "type": "box",
     "layout": "vertical",
-    "spacing": "md",
-    "action": {
-      "type": "uri",
-      "label": "Action",
-      "uri": "https://linecorp.com"
-    },
     "contents": [
       {
         "type": "text",
-        "text": "Brown's Burger",
-        "weight": "bold",
-        "size": "xl",
-        "contents": []
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png"
-              },
-              {
-                "type": "text",
-                "text": "$10.5",
-                "weight": "bold",
-                "margin": "sm",
-                "contents": []
-              },
-              {
-                "type": "text",
-                "text": "400kcl",
-                "size": "sm",
-                "color": "#AAAAAA",
-                "align": "end",
-                "contents": []
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "icon",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_large_32.png"
-              },
-              {
-                "type": "text",
-                "text": "$15.5",
-                "weight": "bold",
-                "flex": 0,
-                "margin": "sm",
-                "contents": []
-              },
-              {
-                "type": "text",
-                "text": "550kcl",
-                "size": "sm",
-                "color": "#AAAAAA",
-                "align": "end",
-                "contents": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "text": "Sauce, Onions, Pickles, Lettuce & Cheese",
-        "size": "xxs",
-        "color": "#AAAAAA",
-        "wrap": true,
+        "text": "Body",
+        "align": "center",
         "contents": []
       }
     ]
   },
   "footer": {
     "type": "box",
-    "layout": "vertical",
+    "layout": "horizontal",
     "contents": [
-      {
-        "type": "spacer",
-        "size": "xxl"
-      },
       {
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "Add to Cart",
+          "label": "Button",
           "uri": "https://linecorp.com"
-        },
-        "color": "#905C44",
-        "style": "primary"
+        }
       }
     ]
   }
