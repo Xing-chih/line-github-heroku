@@ -44,16 +44,16 @@ def callback():
 def handle_message(event):
     if event.message.text == 'show me':
         with open('test.json', 'r', encoding='utf-8') as f:
-            carousel_content = CarouselContainer.new_from_json_dict(
-                json.load(f))
+            bubble_container = BubbleContainer.new_from_json_dict(json.load(f))
 
-        carousel_flex_send_message = FlexSendMessage(alt_text="all right~",
-                                                     contents=carousel_content)
+        bubble_flex_send_message = FlexSendMessage(
+            alt_text="hello", contents=bubble_container)
 
         line_bot_api.reply_message(
             event.reply_token,
-            carousel_flex_send_message
+            bubble_flex_send_message
         )
+
     else:
         line_bot_api.reply_message(
             event.reply_token,
