@@ -1,3 +1,6 @@
+import os
+import json
+
 from flask import Flask, request, abort
 
 from linebot import (
@@ -8,9 +11,8 @@ from linebot.exceptions import (
 )
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
+    FlexSendMessage, CarouselContainer
 )
-
-import os
 
 
 app = Flask(__name__)
@@ -40,9 +42,22 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text=event.message.text))
+    if event.message.text == 'show me':
+        with open('test.json', 'r', encoding='utf-8') as f:
+            carousel_content = CarouselContainer.new_from_json_dict(
+                json.load(f))
+
+        carousel_flex_send_message = FlexSendMessage(alt_text="all right~",
+                                                     contents=carousel_content)
+
+        line_bot_api.reply_message(
+            event.reply_token,
+            carousel_flex_send_message
+        )
+    else:
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=event.message.text))
 
 
 # if __name__ == "__main__":
