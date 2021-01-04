@@ -1,157 +1,157 @@
 {
-  "type": "bubble",
-  "hero": {
-    "type": "image",
-    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
-    "size": "full",
-    "aspectRatio": "20:13",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "label": "Line",
-      "uri": "https://linecorp.com/"
-    }
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "Brown Cafe",
-        "weight": "bold",
-        "size": "xl",
-        "contents": []
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://conceptionseo.com/wp-content/uploads/2021/01/截圖-2021-01-01-下午10.14.29-2.png",
+        "size": "full"
       },
-      {
+      "body": {
         "type": "box",
-        "layout": "baseline",
-        "margin": "md",
+        "layout": "vertical",
         "contents": [
           {
-            "type": "icon",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-            "size": "sm"
-          },
-          {
-            "type": "icon",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-            "size": "sm"
-          },
-          {
-            "type": "icon",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-            "size": "sm"
-          },
-          {
-            "type": "icon",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
-            "size": "sm"
-          },
-          {
-            "type": "icon",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+            "type": "text",
+            "text": "個人經歷：",
+            "color": "#aaaaaa",
             "size": "sm"
           },
           {
             "type": "text",
-            "text": "4.0",
-            "size": "sm",
-            "color": "#999999",
-            "flex": 0,
-            "margin": "md",
-            "contents": []
+            "contents": [],
+            "flex": 2,
+            "wrap": true,
+            "text": "中小企業總會數位行銷顧問\n台北市旅遊同業工會數位行銷講師\n台灣美妝公會網路行銷講師\n行政院青輔會青年政策論壇主持人\n嘉義市美髮美容工會數位行銷講師"
           }
         ]
       },
-      {
+      "footer": {
         "type": "box",
         "layout": "vertical",
-        "spacing": "sm",
-        "margin": "lg",
         "contents": [
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Place",
-                "size": "sm",
-                "color": "#AAAAAA",
-                "flex": 1,
-                "contents": []
-              },
-              {
-                "type": "text",
-                "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
-                "size": "sm",
-                "color": "#666666",
-                "flex": 5,
-                "wrap": true,
-                "contents": []
-              }
-            ]
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "聯絡電話",
+              "uri": "tel:+886905870119"
+            }
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Time",
-                "size": "sm",
-                "color": "#AAAAAA",
-                "flex": 1,
-                "contents": []
-              },
-              {
-                "type": "text",
-                "text": "10:00 - 23:00",
-                "size": "sm",
-                "color": "#666666",
-                "flex": 5,
-                "wrap": true,
-                "contents": []
-              }
-            ]
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "加我line",
+              "uri": "http://linecorp.com/"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "個人簡介",
+              "uri": "https://conceptionseo.com/wp-content/uploads/2021/01/chloe-個人簡介.png"
+            }
           }
         ]
       }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "flex": 0,
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "action": {
-          "type": "uri",
-          "label": "CALL",
-          "uri": "https://linecorp.com"
-        },
-        "height": "sm",
-        "style": "link"
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://conceptionseo.com/wp-content/uploads/2020/08/中小企業.jpg",
+        "size": "full"
       },
-      {
-        "type": "button",
-        "action": {
-          "type": "uri",
-          "label": "WEBSITE",
-          "uri": "https://linecorp.com"
-        },
-        "height": "sm",
-        "style": "link"
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "公司介紹：",
+            "color": "#aaaaaa",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "contents": [],
+            "flex": 2,
+            "wrap": true,
+            "text": "桃園市青年局團隊（新明基地）\n桃園青創日參與團隊\n代表經濟部參與美國 CES 展覽\n網站架設｜數位廣告｜SEO | 數據分析"
+          }
+        ]
       },
-      {
-        "type": "spacer",
-        "size": "sm"
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "公司網站",
+              "uri": "https://conceptionseo.com/"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "粉絲專頁",
+              "uri": "https://www.facebook.com/B2Bemarketing"
+            }
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://conceptionseo.com/wp-content/uploads/2020/08/從一頁式到完整系統-1.jpg",
+        "size": "full"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ShopTube 介紹",
+            "color": "#aaaaaa",
+            "size": "sm"
+          },
+          {
+            "type": "image",
+            "url": "https://drive.google.com/file/d/1751CqPU1vIHU_3WTuWhVFmvlcGkpk5iJ/view"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "官方IG帳號",
+              "text": "敬請期待"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "臉書社團",
+              "uri": "https://www.facebook.com/groups/291646425160045"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
