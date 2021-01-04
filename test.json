@@ -37,15 +37,18 @@
               "type": "uri",
               "label": "聯絡電話",
               "uri": "tel:+886905870119"
-            }
+            },
+            "style": "primary",
+            "color": "#000000"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
               "label": "加我line",
-              "uri": "http://linecorp.com/"
-            }
+              "uri": "https://line.me/D"
+            },
+            "style": "primary"
           },
           {
             "type": "button",
@@ -53,7 +56,9 @@
               "type": "uri",
               "label": "個人簡介",
               "uri": "https://conceptionseo.com/wp-content/uploads/2021/01/chloe-個人簡介.png"
-            }
+            },
+            "style": "primary",
+            "color": "#000000"
           }
         ]
       }
@@ -94,7 +99,8 @@
               "type": "uri",
               "label": "公司網站",
               "uri": "https://conceptionseo.com/"
-            }
+            },
+            "style": "primary"
           },
           {
             "type": "button",
@@ -102,7 +108,9 @@
               "type": "uri",
               "label": "粉絲專頁",
               "uri": "https://www.facebook.com/B2Bemarketing"
-            }
+            },
+            "style": "primary",
+            "color": "#000000"
           }
         ]
       }
@@ -126,7 +134,16 @@
           },
           {
             "type": "image",
-            "url": "https://drive.google.com/file/d/1751CqPU1vIHU_3WTuWhVFmvlcGkpk5iJ/view"
+            "url": "https://conceptionseo.com/wp-content/uploads/2019/12/W720-LOGO-%E8%97%8D.png",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://treensky.tw/wp-content/uploads/2021/01/三版.mp4",
+              "altUri": {
+                "desktop": "https://treensky.tw/wp-content/uploads/2021/01/三版.mp4"
+              }
+            },
+            "size": "xl"
           }
         ]
       },
@@ -137,10 +154,11 @@
           {
             "type": "button",
             "action": {
-              "type": "message",
+              "type": "uri",
               "label": "官方IG帳號",
-              "text": "敬請期待"
-            }
+              "uri": "https://www.instagram.com/hsuan.chloe/"
+            },
+            "style": "primary"
           },
           {
             "type": "button",
@@ -148,7 +166,9 @@
               "type": "uri",
               "label": "臉書社團",
               "uri": "https://www.facebook.com/groups/291646425160045"
-            }
+            },
+            "style": "primary",
+            "color": "#000000"
           }
         ]
       }
